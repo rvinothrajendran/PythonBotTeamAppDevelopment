@@ -8,7 +8,7 @@ from herocard import SampleAnimationCard
 app = Flask(__name__)
 loop = asyncio.get_event_loop()
 
-botsettings = BotFrameworkAdapterSettings("","")
+botsettings = BotFrameworkAdapterSettings("cf2f1cb0-1c25-411c-8373-657485244b48","zn7LT-n.TDQ~R1-_dC1ue4M8Jx9Il8Mohc")
 botadapter = BotFrameworkAdapter(botsettings)
 
 CONMEMORY = ConversationState(MemoryStorage())
