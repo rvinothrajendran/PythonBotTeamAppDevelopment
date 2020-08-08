@@ -1,2 +1,3 @@
+git+https://github.com/Azure/msrest-for-python@v0.4.29
 botbuilder-core>=4.7.0
-aiohttp
+aiohttp==3.4.4
