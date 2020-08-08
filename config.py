@@ -8,5 +8,5 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
-    APP_ID = os.environ.get("MicrosoftAppId", "66f5bdb9-31d8-4302-96d7-a6fdab5536f1")
-    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "VinBotSecretDemo!")
+    APP_ID = os.environ.get("MicrosoftAppId", "73d7ab56-2dc9-4009-8dff-d591f83521d1")
+    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "B9q2Xf8-vZc--i.6pvEOyJ.0Y3r2q54G.m")
