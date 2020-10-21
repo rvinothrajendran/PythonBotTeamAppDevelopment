@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\github\\botbuildercommunity\\DialogPromptSample\\DialogPromptSample.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\github\\botbuildercommunity\\DialogPromptSample\\DialogPromptSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\github\\botbuildercommunity\\DialogPromptSample\\DialogPromptSample.csproj",
+        "projectName": "AdaptiveCardPromptSample",
+        "projectPath": "C:\\code\\github\\botbuildercommunity\\DialogPromptSample\\DialogPromptSample.csproj",
+        "packagesPath": "C:\\Users\\LalithaVinoth\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\github\\botbuildercommunity\\DialogPromptSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LalithaVinoth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Bot.Builder.Community.Dialogs.Prompts": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400-preview-015178\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
